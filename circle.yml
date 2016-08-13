@@ -1,0 +1,9 @@
+dependencies:
+  override:
+    - apt-get install python3-testtools python3-mock
+    - which python3
+    - python3 --version
+
+test:
+  override:
+    - echo Yes
